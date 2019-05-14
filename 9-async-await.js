@@ -31,8 +31,8 @@ const doWork = async () => { // async function "always" returns a "Promise"
 
 }
 
-// doWork().then((result) => {
-//     console.log(result)
-// }).catch((e) => {
-//     console.log(e)
-// })
+doWork().then((result) => {
+    console.log(result)
+}).catch((e) => {
+    console.log(e)
+})
